@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ATM Interface</title>
+</head>
+<body>
+    <div class="atm">
+        <h1>ATM</h1>
+        <form id="atmForm">
+            <div class="inputBox">
+                <label for="cardNumber">Card Number:</label>
+                <input type="text" id="cardNumber" placeholder="Enter card number" required>
+            </div>
+            <div class="inputBox">
+                <label for="pin">PIN:</label>
+                <input type="password" id="pin" placeholder="Enter PIN" required>
+            </div>
+            <div class="inputBox">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" placeholder="Enter amount" required>
+            </div>
+            <button type="submit">Withdraw</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
